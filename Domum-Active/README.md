@@ -11,7 +11,7 @@ Fundada en 2021, la empresa surgió como respuesta al auge del entrenamiento dom
 
 ### Tipo de empresa
 
-Actualmente (2024), Domum Active opera en todo el territorio nacional, incluidas las Islas Baleares y Canarias. Su sede central se encuentra en Madrid y cuenta con un equipo de 47 empleados.
+Actualmente (2025), Domum Active opera en todo el territorio nacional, incluidas las Islas Baleares y Canarias. Su sede central se encuentra en Madrid y cuenta con un equipo de 47 empleados.
 
 ## Estructura organizativa
 
