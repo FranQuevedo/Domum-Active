@@ -1,0 +1,128 @@
+Módulo Odoo – Rutinas de Ejercicio
+Empresa: Domum Active
+Área responsable: Departamento IT – Desarrollo de Módulos Odoo
+Fecha: Mayo 2025
+
+1. Introducción
+El presente manual tiene como objetivo estandarizar el proceso de desarrollo, despliegue y mantenimiento del módulo “Rutinas de Ejercicio” implementado en la plataforma Odoo de Domum Active. Este módulo permite añadir un nuevo tipo de producto dentro del sistema de ventas, orientado a la comercialización de rutinas de entrenamiento físico para clientes domésticos.
+
+2. Objetivo del módulo
+Incorporar un nuevo tipo de producto llamado “Rutina de Ejercicio” que se diferencie funcionalmente de los productos físicos y servicios. Este producto incluirá campos técnicos adicionales y será gestionable desde el backend por el administrador y visible para los usuarios en la tienda online.
+
+3. Alcance del desarrollo
+El módulo afecta directamente a los siguientes componentes de Odoo:
+
+Modelos (models/): Extiende el modelo product.template.
+
+Vistas (views/): Modifica la vista del formulario de productos.
+
+Seguridad (security/): Define reglas de acceso para usuarios administradores.
+
+Manifest (__manifest__.py): Define metadatos y dependencias del módulo.
+
+4. Estructura del módulo
+rutina_ejercicio/
+├── __init__.py
+├── __manifest__.py
+├── models/
+│   └── product_template.py
+├── views/
+│   └── product_template_views.xml
+├── security/
+│   └── ir.model.access.csv
+└── README.md
+
+5. Roles y responsabilidades
+Departamento IT
+Desarrollo técnico del módulo.
+
+Documentación del código y pruebas.
+
+Control de versiones y mantenimiento.
+
+Coordinación con el departamento de Vendes para el despliegue en producción.
+
+Departamento de Desenvolupament de Productes
+Suministro de contenidos y estructura de las rutinas.
+
+Validación de los campos técnicos.
+
+Aprobación de la funcionalidad para su uso comercial.
+
+Departamento de Vendes
+Formación básica sobre el uso del módulo.
+
+Supervisión del impacto en el catálogo online.
+
+Reporte de incidencias.
+
+6. Procedimiento de desarrollo
+Análisis funcional
+
+Revisión de necesidades con el área comercial.
+
+Diseño de campos personalizados y condiciones de visibilidad.
+
+Diseño técnico
+
+Definición del modelo product.template heredado.
+
+Configuración del tipo de producto con valores de sistema.
+
+Codificación
+
+Implementación de modelos y vistas.
+
+Validación de datos.
+
+Pruebas unitarias.
+
+Pruebas y validación
+
+Entorno de pruebas con datos reales.
+
+Validación funcional con el usuario final.
+
+Despliegue
+
+Instalación en entorno de producción.
+
+Capacitación básica al personal de ventas y soporte.
+
+Mantenimiento
+
+Soporte a incidencias.
+
+Ajustes evolutivos según feedback del usuario.
+
+7. Consideraciones técnicas
+Restricción de campos: Los nuevos campos solo deben ser visibles y editables si el producto es del tipo “Rutina de Ejercicio”.
+
+Condición lógica: Usar atributos attrs en XML para condicionar la visibilidad.
+
+Control de errores: Validar que los campos obligatorios estén completos antes de guardar.
+
+Rendimiento: Evitar llamadas innecesarias al servidor (usar @api.onchange o @api.depends cuando sea pertinente).
+
+8. Estándares de documentación
+Todo archivo Python debe incluir docstrings por clase y función.
+
+Los cambios deben registrarse en un archivo CHANGELOG.md.
+
+Deben mantenerse capturas de pantalla y vídeo demostrativo actualizado.
+
+9. Formación y soporte
+Se entregará una guía rápida de uso al departamento de ventas.
+
+Se asignará un técnico de IT como punto de contacto para dudas o incidencias.
+
+Las incidencias deben registrarse mediante el sistema interno de tickets.
+
+10. Mejora continua
+Este módulo forma parte de una estrategia a largo plazo para incluir servicios digitales en el catálogo de Domum Active. Se prevé en el futuro:
+
+Integración con calendarios de entrenamiento personalizados.
+
+Suscripciones mensuales a rutinas.
+
+Acceso a vídeos o contenido multimedia.
