@@ -1,0 +1,130 @@
+Empresa: Domum Active
+Departamento responsable: Desenvolupament de Productes / Finances / Vendes
+Fecha: Mayo 2025
+
+1. Objetivo
+Establecer una guía estandarizada para la gestión del proceso de compras dentro de Domum Active, garantizando el suministro eficiente de materiales, productos y servicios necesarios para la operación y comercialización de productos fitness destinados al ejercicio en casa.
+
+2. Alcance
+Este procedimiento aplica a:
+
+La adquisición de materias primas o componentes necesarios para la producción de productos fitness.
+
+La contratación de servicios externos (logística, transporte, desarrollo, etc.).
+
+La compra de productos terminados o complementarios para su comercialización online.
+
+La adquisición de software y servicios IT relacionados con la infraestructura tecnológica de la empresa.
+
+3. Responsables
+Departament de Desenvolupament de Productes
+Responsable de identificar necesidades de compra para producción, gestionar especificaciones técnicas y contactar proveedores técnicos.
+
+Departament de Finances
+Responsable de validar presupuestos, gestionar pagos y registrar contabilidad.
+
+Departament de Vendes
+Encargado de prever necesidades de stock y coordinar con Desenvolupament de Productes.
+
+4. Descripción del proceso
+4.1 Identificación de la necesidad
+Se detecta una necesidad de compra por parte de:
+
+L'equip de Producció (por faltante de materiales o componentes).
+
+El Departament de Vendes (por aumento de demanda).
+
+El Departament d’IT (por requerimientos tecnológicos).
+
+La Direcció (por decisiones estratégicas).
+
+4.2 Solicitud interna
+El responsable del área elabora una Solicitud de Compra Interna (SCI) detallando:
+
+Producto o servicio requerido.
+
+Cantidad y especificaciones.
+
+Urgencia y justificación.
+
+Proveedor sugerido (si aplica).
+
+4.3 Evaluación de la solicitud
+El Departament de Desenvolupament de Productes valida la necesidad técnica.
+
+El Departament de Finances revisa la viabilidad presupuestaria y solicita aprobación si supera límites establecidos.
+
+Si todo está conforme, se autoriza la solicitud.
+
+4.4 Contacto con proveedores
+Se contactan al menos dos proveedores para comparar condiciones:
+
+Precio unitario y total.
+
+Tiempo de entrega.
+
+Condiciones de pago.
+
+Garantías y devoluciones.
+
+Se selecciona el proveedor óptimo con aprobación de Desenvolupament de Productes y Finances.
+
+4.5 Generación de pedido
+Se emite un Pedido de Compra (PO) desde el sistema Odoo con:
+
+Detalles del producto o servicio.
+
+Datos del proveedor.
+
+Condiciones de entrega y pago.
+
+Responsable de recepción.
+
+Se envía al proveedor para confirmación.
+
+4.6 Recepción de mercancía o servicio
+El Departament de Desenvolupament de Productes (equip de logística) verifica:
+
+Cantidad recibida.
+
+Calidad y conformidad.
+
+Documentación (factura, albarán, guía de transporte).
+
+En caso de no conformidad, se activa el proceso de devolución o reclamación.
+
+4.7 Registro contable y pago
+El Departament de Finances registra la factura en el sistema contable.
+
+Se agenda el pago según condiciones pactadas.
+
+Se archivan todos los documentos digitales en el sistema interno.
+
+5. Documentación generada
+Solicitud de Compra Interna (SCI).
+
+Comparativa de presupuestos.
+
+Pedido de Compra (PO).
+
+Factura del proveedor.
+
+Registro de recepción y conformidad.
+
+6. Indicadores de seguimiento
+Tiempo promedio de aprobación de compras.
+
+Porcentaje de pedidos entregados a tiempo.
+
+Nivel de satisfacción con proveedores.
+
+Desviaciones presupuestarias en compras.
+
+7. Consideraciones especiales
+Todas las compras deben realizarse a través del sistema oficial (Odoo).
+
+No se permiten compras directas no autorizadas fuera del circuito interno.
+
+Proveedores nuevos deben ser aprobados por el Departament de Finances antes de realizar compras.
+
+Revisión del procedimiento: Cada 12 meses o cuando haya un cambio estructural en el proceso o sistema de compras.
